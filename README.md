@@ -1,2 +1,1 @@
-This is the README
-This is the edited README
+This is the code for my personal site. It consits of just a root page and a link to my projects. More to come
