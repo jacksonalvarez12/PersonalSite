@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #F7E2E2;
+    color: #1A132F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 30px;
+    text-shadow: 2px 2px #5B7DB1;
+}
+
+.project-container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 10% 0 10%;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.project {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #1A132F 5px;
+    border-radius: 10%;
+    color: #1A132F;
+    background-image: linear-gradient(#5B7DB1, #F7E2E2);
+    cursor: pointer;
+    max-width: 350px;
+}
+
+.project h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.project h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 5px;
+    min-height: 30px;
+}
+
+.project hr {
+    width: 100%;
+    border-width: 5px 0 0 0;
+    border-color: #1A132F;
+}
+
+.project:hover {
+    background-color: #61A4BC;
+}
+
+footer {
+    background-color: #1A132F;
+    width: 100%;
+    color: #5B7DB1;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+footer .contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F7E2E2;
+}
+
+footer a:hover {
+    color: #61A4BC;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1000px) {
+    .project-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
